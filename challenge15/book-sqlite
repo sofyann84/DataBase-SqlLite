@@ -1,0 +1,32 @@
+perintah2 sqlite
+
+
+.schema           // menampilkan inputan
+rm university.db  // menghapus database
+.tables           // menampilkan table      
+.headers on       // menampilkan header
+.mode column      // buat semacam column  
+
+alter table mahasiswa add column tanggallahir date;
+
+update mahasiswa set tanggallahir= '1984-05-21' where nim = '';
+
+
+one to many, tanda segitiganya ada di bagian many
+
+foreign key : primary key di tabel lain
+
+NOT NULL : tidak boleh kosong
+
+nama : typenya biasanya VARCHAR(100)
+NIM pake text karena suka ada kode2nya
+
+
+Q: 
+
+1. apa beda VARCHAR dan text
+2. 
+
+
+
+
